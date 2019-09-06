@@ -5,16 +5,17 @@
 .callout {
   border-left: 3px solid #BBB;
   background-color: #EEE;
-  padding: $-s $-s $-s $-xl;
+  padding: $-s $-s $-s $-xxl;
   display: block;
   position: relative;
+  font-size: .9em;
   &:before {
     background-image: url('data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjQgMjQiIGZpbGw9IiMwMTUzODAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+ICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiIGZpbGw9Im5vbmUiLz4gICAgPHBhdGggZD0iTTEyIDJDNi40OCAyIDIgNi40OCAyIDEyczQuNDggMTAgMTAgMTAgMTAtNC40OCAxMC0xMFMxNy41MiAyIDEyIDJ6bTEgMTVoLTJ2LTZoMnY2em0wLThoLTJWN2gydjJ6Ii8+PC9zdmc+');
     background-repeat: no-repeat;
     content: '';
     width: 1.2em;
     height: 1.2em;
-    left: $-xs + 2px;
+    left: $-s + 2px;
     top: 50%;
     margin-top: -9px;
     display: inline-block;
