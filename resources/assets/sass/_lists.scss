@@ -649,3 +649,11 @@ ul.pagination {
     text-decoration: none;
   }
 }
+
+.book,
+.page,
+.chapter {
+  .entity-item-snippet {
+    font-size: $fs-m;
+  }
+}
